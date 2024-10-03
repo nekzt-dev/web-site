@@ -11,6 +11,16 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        backRadialBorder: "#0F0F0F",
+        backRadialCenter: "#0A0A0A",
+        pinkPrincipal: "#D029C5",
+        greenPrincipal: "#00F8C6",
+      },
+      backgroundImage: {
+        'radial-gradient': 'radial-gradient(var(--tw-gradient-stops))',
+      },
+      skew: {
+        '30': '30deg',
       },
     },
   },

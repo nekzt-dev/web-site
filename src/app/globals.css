@@ -24,4 +24,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .clipPathButton {
+    clip-path: polygon(25% 0, 100% 0%, 75% 50%, 0 50%);
+  }
+
 }
