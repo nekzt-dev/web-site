@@ -1,5 +1,5 @@
 import Explore from "@/components/Explore";
-import Menu from "@/components/Menu";
+import Navbar from "@/components/Navbar/index";
 import ParticlesBackground from "@/components/ParticlesBackground";
 import Writing from "@/components/Writing";
 
@@ -11,9 +11,9 @@ export default function FirstPage() {
         <ParticlesBackground />
       </div>
 
-      <div className="relative z-10 grid grid-cols-3 grid-rows-7 h-screen bg-transparent">
+      <main className="relative z-10 grid grid-cols-3 grid-rows-7 h-screen bg-transparent">
         <div className="col-span-3 row-span-1">
-          <Menu />
+          <Navbar />
         </div> 
 
         <div className="col-span-3 row-span-5">
@@ -23,7 +23,7 @@ export default function FirstPage() {
         <div className="col-span-3 row-span-1">
           <Explore />
         </div>
-      </div>
+      </main>
     </>
   );
 };
