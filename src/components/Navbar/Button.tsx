@@ -16,8 +16,8 @@ export default function Button({ text }: IPropsButton) {
     >
       {/* <div className={`${isAnimationButton ? 'w-full' : 'w-1'} transition-all z-0 h-full bg-zinc-200 absolute top-0 left-0`} /> */}
       <div className="w-5 h-5 flex relative items-center justify-center">
-        <div className="bg-white w-6 h-6 z-10 absolute rounded-full opacity-40 animate-ping [animation-delay:_0.5s]"></div>
-        <div className="bg-white w-5 h-5 z-20 absolute rounded-full opacity-30 animate-ping"></div>
+        <div className="bg-white w-6 h-6 z-10 absolute rounded-full opacity-40 animate-ping [animation-delay:_0.3s]"></div>
+        <div className="bg-white w-4 h-4 z-20 absolute rounded-full opacity-30 animate-ping [animation-delay:_0.5s]"></div>
         <div className="bg-white w-2 h-2 z-30 absolute rounded-full opacity-100"></div>
       </div>
       <p
